@@ -1,0 +1,17 @@
+npm init -y \\Установка NPM 
+npm i -D webpack webpack-cli webpack-dev-server \\установка вебпака
+npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties \\установка babel (js переводчик, компилирует новый синтаксис JS в старый)
+npm i -D css-loader mini-css-extract-plugin html-webpack-plugin 
+
+npm i react react-dom \\для создание реакт компонентов
+npm i bootstrap jquery popper.js \\BS FQ
+
+Дальше нужно создать папку scr и в ней создать файл index.jsx
+Дальше нужно создать скрипт который будет создавать сборку, для этого нужно в пакадже сделать
+"scripts": {
+    "build": "webpack --mode development"
+дальше нужно создать webpack.config.js
+дальше нужно создать  .babelrc
+запуск  npm run build
+
+
